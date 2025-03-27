@@ -1,11 +1,12 @@
-import React from 'react'
+import { ThemeProvider } from "./context/ThemeContext";
+import AccountSetup from "./pages/AccountSetup";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1 className='text-red-500'>welcome</h1>
-    </div>
-  )
+    <ThemeProvider>
+      <AccountSetup />
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;
