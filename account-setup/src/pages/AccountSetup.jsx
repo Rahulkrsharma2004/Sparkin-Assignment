@@ -21,7 +21,7 @@ const AccountSetup = () => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-gradient-to-br from-gray-100 to-gray-300 dark:from-gray-900 dark:to-gray-800 p-4 sm:p-6 md:p-8 lg:p-10">
       <Navbar />
-      <div className="w-full max-w-3xl bg-white dark:bg-gray-800 p-6 sm:p-8 md:p-10 rounded-2xl shadow-xl transition-all duration-300 transform">
+      <div className="w-full max-w-3xl bg-white dark:bg-gray-800 p-6 sm:p-8 md:p-10 rounded-2xl shadow-xl transition-all duration-300 transform mt-20">
         {step === 1 && (
           <>
             <h2 className="text-lg sm:text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">
